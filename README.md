@@ -1,3 +1,5 @@
+# Açıklama
+
 İlk kısımda, HTML DOM öğelerini seçiyoruz. getElementById fonksiyonunu kullanarak sayacın değerini gösteren countElement, artırma düğmesini temsil eden incrementButton, ve azaltma düğmesini temsil eden decrementButton adında üç değişken oluşturuyoruz. Bu öğelerin türlerini tanımlayarak TypeScript'te tür güvencesi sağlıyoruz.
 
 count adında bir sayacı sıfırlıyoruz.
