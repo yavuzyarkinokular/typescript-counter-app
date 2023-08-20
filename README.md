@@ -11,3 +11,14 @@ updateCount adında bir işlev oluşturuyoruz. Bu işlev, countElement adlı HTM
 Artırma ve azaltma düğmelerine tıklama olaylarını dinlemek için addEventListener kullanıyoruz. Eğer düğmeler (incrementButton ve decrementButton) tanımlanmışsa, tıklama olaylarını işlemek üzere incrementCount ve decrementCount işlevlerini ekleriz.
 
 Son olarak, başlangıçta sayacı güncellemek için updateCount işlevini çağırırız.
+
+### Tsconfig dosyasının başta olması gereken şekli
+
+{
+"compilerOptions": {
+"target": "ES6",
+"outDir": "./dist",
+"rootDir": "./src",
+"strict": true
+}
+}
