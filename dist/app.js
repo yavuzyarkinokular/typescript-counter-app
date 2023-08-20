@@ -9,10 +9,11 @@ function incrementCount() {
     count++;
     updateCount();
 }
-// Azaltma işlevi
 function decrementCount() {
-    count--;
-    updateCount();
+    if (count > 0) {
+        count--;
+        updateCount();
+    }
 }
 // Sayacı güncelleyen işlev
 function updateCount() {
